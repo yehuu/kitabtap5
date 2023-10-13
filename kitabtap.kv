@@ -1,0 +1,28 @@
+<Interface>:
+    MDBoxLayout:
+        orientation: "vertical"
+        MDTopAppBar:
+            title: "Kitab tap"
+        MDBoxLayout:
+            spacing: dp(10)
+            size_hint_y: 0.15
+            orientation: "horizontal"
+            padding: '10dp', 0
+            MDTextField:
+                hint_text: "Kitab adı daxil edin"
+                mode: "rectangle"
+            MDRectangleFlatIconButton:
+                text: "Axtar"
+                theme_text_color: "Custom"
+                text_color: "orange"
+                md_bg_color: "#f8d7e3"
+                type: "large"
+                icon: "database-search-outline"
+                size_hint: 0.2,0.7
+                font_size: dp(20)
+        MDBoxLayout:
+            padding: 0, '10dp'
+            Image:
+                source: "logo.jpg"
+
+
